@@ -1,0 +1,11 @@
+.heading{
+    color:white;
+   margin: auto;
+}
+
+#body{
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
