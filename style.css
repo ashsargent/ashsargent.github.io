@@ -4,14 +4,23 @@
 .heading{
     color:white;
    margin: auto;
+   text-align: center;
+   padding-top: 5%;
+   text-size-adjust: 50px;
 }
 
 #body{
     background-color: black;
+    background-image: url(./images/intials\ logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 45%;
     margin: 0 auto;
- width: 70%;
+ width: 60%;
  font-family: 'Yaldevi', sans-serif;
     color: white;
+    padding-bottom: 6%;
 }
 
 .about{
@@ -21,4 +30,21 @@
 .image{
     width: 50px;
     height: 50px;
+    padding-left: 7%;
+    padding-right: 7%;
 }
+
+.suits{
+    width: 100%;
+  height: auto;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 1%;
