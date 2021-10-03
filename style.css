@@ -37,6 +37,12 @@
 .suits{
     width: 100%;
   height: auto;
+  transition: transform .2s;
+  
+}
+
+.suits:hover{
+    transform: scale(1.5);
 }
 
 .footer {
