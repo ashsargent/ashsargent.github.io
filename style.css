@@ -1,49 +1,45 @@
 
-
-
 .heading{
     color:white;
-   margin: auto;
-   text-align: center;
-   padding-top: 5%;
-   text-size-adjust: 50px;
+    margin: auto;
+    text-align: center;
+    padding-top: 5%;
+    text-size-adjust: 50px;
 }
 
 #body{
-    background-color: black;
-    background-image: url(./images/intials\ logo.png);
-    background-position: center;
+   
+    background-color: #303030;
+    background-image: url(./images/AS\ MONOCHROME.png);
+    background-position-x: right;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 45%;
-    margin: 0 auto;
- width: 60%;
- font-family: 'Yaldevi', sans-serif;
+    width: 70%;
+    margin: 0% auto;
+    background-size: 20%;
+    width: 60%;
+    font-family: 'Yaldevi', sans-serif;
     color: white;
     padding-bottom: 6%;
 }
 
-.about{
-    background-color: black;
-}
 
-.image{
+
+.links{
+    position:flex;
     width: 50px;
     height: 50px;
-    padding-left: 7%;
-    padding-right: 7%;
+    padding-left:7%;
+    padding-right:7%;
 }
 
 .suits{
     width: 100%;
-  height: auto;
-  transition: transform .2s;
-  
+    height: auto;
+    position: flex;
+    border-radius: 2%;
 }
 
-.suits:hover{
-    transform: scale(1.5);
-}
 
 .footer {
     position: fixed;
@@ -51,6 +47,8 @@
     bottom: 0;
     width: 100%;
     background-color: black;
+    
     color: white;
     text-align: center;
     padding-bottom: 1%;
+}
